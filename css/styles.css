@@ -74,7 +74,7 @@ html {
     object-fit: cover;
     width: 100vw;
     height: 100vh;
-    padding: 22em 10em;
+    /* padding: 22em 10em; */
 }
 
 .hero-header {
@@ -83,9 +83,14 @@ html {
     font-size: 7em;
 }
 
+.hero-wrapper {
+  position: absolute;
+  top: 28em;
+  left: 10em;
+}
+
 .hero-header > span {
     color: #a7877e;
-    
 }
 
 .hero-coffee h4 {
@@ -94,6 +99,7 @@ html {
     font-size: 1.35em;
     font-weight: 300;
     margin-top: -0.8em;
+
 }
 
 .hero-coffee button {
@@ -110,3 +116,126 @@ html {
 .hero-coffee button:active {
     background-color: #88776a;
 }
+
+.coffee-article {
+  margin: 5em;
+  text-align: center;
+}
+
+.coffee-article > h4 {
+  font-style: italic;
+}
+
+.coffee-article > h3, .reservation-form > h3 {
+  font-weight: 800;
+  font-size: 1.5em;
+}
+
+.coffee-article > hr, .reservation-form > hr {
+  border: 1px solid #d2b08c;
+  width: 350px;
+  margin-bottom: 2.5em;
+}
+
+.reservation-form > h3{
+  text-align: center;
+}
+
+
+.coffee-info-card {
+  width: 825px;
+  height: 400px;
+  background-color: #403832;
+  color: white;
+  display: inline-block;
+  margin: 10px;
+  padding: 9em 3em;
+  text-align: left;
+  text-shadow: 2px 2px 20px black;
+}
+
+.coffee-info-card h2 {
+  font-family: 'Heebo', sans-serif;
+  font-weight: 900;
+  font-size: 2em;
+}
+
+.coffee-info-card a > h4  {
+  font-family: 'Heebo', sans-serif;
+  font-size: 1em;
+  color: white;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.coffee-article h4 {
+  font-family: 'Heebo', sans-serif;
+  color: #d2b08c;
+}
+
+.product-row {
+  display: block;
+  margin: 1em 0;
+}
+
+.coffee-product {
+  text-align: left;
+  display: inline-block;
+}
+
+.coffee-product:nth-child(1), .coffee-product:nth-child(2), .coffee-product:nth-child(3) {
+  margin-right: 1em;
+}
+
+.coffee-product > img {
+  width: 400px;
+  height: 500px;
+  object-fit: cover;
+}
+
+.coffee-product > h3 {
+  font-size: 1.5em;
+  font-weight: 900;
+}
+
+.coffee-discount-banner {
+  width: 1670px;
+  height: 500px;
+  background-image: url('../images/discount-img.jpg');
+  margin: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0%;
+  padding: 200px;
+}
+
+.coffee-discount-banner h2 {
+  font-family: 'Heebo', sans-serif;
+  color: white;
+  font-weight: 900;
+  font-size: 2em;
+  text-shadow: 2px 2px 20px black;
+}
+
+.coffee-discount-banner h4 {
+  font-family: 'Heebo', sans-serif;
+  color: white;
+  font-style: italic;
+}
+
+.coffee-discount-banner button {
+  font-family: 'Heebo', sans-serif;
+  background-color: white;
+  opacity: 0.5;
+  color: black;
+  padding: 0.8em;
+  border-style: none;
+  font-weight: 700;
+  font-size: 1.25em;
+  margin-top: 1em;
+}
+
+.coffee-discount-banner button:active {
+  opacity: 1;
+}
+
